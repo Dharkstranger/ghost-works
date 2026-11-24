@@ -1,0 +1,23 @@
+# Tasks: Ghost works
+
+- [ ] 1. Set up the project: Vite, TypeScript, Vitest, fast-check; `src/words.ts`; `src/firebase-config.example.ts`; `.gitignore` the real config.
+  - _Requirements: 7_
+- [ ] 2. `src/book.ts`: create a book, add a work, record and confirm a handover (a confirmed handover can never change). Unit tests.
+  - _Requirements: 1.1, 2.1, 2.3, 3.1, 3.2, 3.3_
+- [ ] 3. `src/share.ts`: share, gallery part, total owed. Property tests: parts add up to the price, never negative.
+  - _Requirements: 4.1, 4.3_
+- [ ] 4. `src/ghost.ts`: `whyGhost` with the three reasons. Property tests from the design.
+  - _Requirements: 5.1, 5.3_
+- [ ] 5. Photo shrinking in the browser to about 100 KB.
+  - _Requirements: 2.2_
+- [ ] 6. `src/store.ts`: Firestore on the free plan; changes wait offline and send later. No Cloud Storage.
+  - _Requirements: 1, 7_
+- [ ] 7. Screens: Start, the book, a work, Hand over, Sold, Mark paid; the share link and WhatsApp share.
+  - _Requirements: 1.2, 1.3, 1.4, 3, 4.2_
+- [ ] 8. The ghost look: drift and fade for ghosts, dashed outline under reduced motion, one line and one button each.
+  - _Requirements: 5.2, 5.4_
+- [ ] 9. `src/export.ts` and the menu item "Put these works on Galleris": the spreadsheet in the Galleris import's columns, the photos named to match, no prices, shares or names; then open gallerismuseum.com/try/.
+  - _Requirements: 6_
+- [ ] 10. Phone and keyboard pass: 44px targets, AA contrast, first screen under 3 seconds on slow 3G.
+  - _Requirements: 7_
+- [ ] 11. A sample book (two names, six works, two ghosts) for the demo video.

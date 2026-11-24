@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "name": "Words check",
+  "description": "When a screen changes, check its words against the house words and that no word sits inside a component.",
+  "version": "1",
+  "when": { "type": "fileEdited", "patterns": ["src/ui/**/*.ts", "src/words.ts"] },
+  "then": { "type": "askAgent", "prompt": "Read .kiro/steering/words.md. In the changed file, list any word on screen that is not in src/words.ts, any word from the Never column, and any sentence where one word would do. Fix them." }
+}
